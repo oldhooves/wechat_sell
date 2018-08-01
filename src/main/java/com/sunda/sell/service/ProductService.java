@@ -1,6 +1,7 @@
 package com.sunda.sell.service;
 
 import com.sunda.sell.dataObject.ProductInfo;
+import com.sunda.sell.dto.CartDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -19,7 +20,7 @@ public interface ProductService {
 
     ProductInfo save(ProductInfo productInfo);
 
-    //TODO 加库存
+    void increaseStock(List<CartDto> cartDtoList);
 
-    //TODO 减库存
+    void decreaseStock(List<CartDto> cartDtoList);
 }

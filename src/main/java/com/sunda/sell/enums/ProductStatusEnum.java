@@ -1,7 +1,6 @@
-package enums;
+package com.sunda.sell.enums;
 
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * Created by 老蹄子 on 2018/7/31 下午7:20

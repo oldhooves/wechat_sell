@@ -1,7 +1,7 @@
 package com.sunda.sell.service.impl;
 
 import com.sunda.sell.dataObject.ProductInfo;
-import enums.ProductStatusEnum;
+import com.sunda.sell.enums.ProductStatusEnum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,8 +13,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by 老蹄子 on 2018/7/31 下午7:27
