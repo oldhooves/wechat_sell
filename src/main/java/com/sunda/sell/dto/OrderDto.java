@@ -51,7 +51,7 @@ public class OrderDto {
 
     @JsonIgnore
     public PayStatusEnum getPayStatusEnum(){
-        return EnumUtil.getByCode(orderStatus,PayStatusEnum.class);
+        return EnumUtil.getByCode(payStatus,PayStatusEnum.class);
     }
 
 }

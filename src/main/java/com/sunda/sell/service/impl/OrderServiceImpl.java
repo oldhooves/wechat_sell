@@ -151,6 +151,7 @@ public class OrderServiceImpl implements OrderService {
         //如果已经支付，需要退款
         if (orderDto.getOrderStatus().equals(PayStatusEnum.SUCCESS.getCode())){
             //TODO
+            System.out.println("退款");
         }
 
 

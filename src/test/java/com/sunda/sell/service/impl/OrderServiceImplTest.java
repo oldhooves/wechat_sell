@@ -37,21 +37,21 @@ public class OrderServiceImplTest {
 
     private final String BUYER_OPPENID = "123456789";
 
-    private final String ORDER_ID = "1533108646936235295";
+    private final String ORDER_ID = "1533108646936235390";
 
     @Test
     public void create() throws Exception {
 
         OrderDto orderDto = new OrderDto();
-        orderDto.setBuyerName("老蹄子");
-        orderDto.setBuyerAddress("123");
-        orderDto.setBuyerPhone("1498794832");
+        orderDto.setBuyerName("老蹄子223");
+        orderDto.setBuyerAddress("1231313");
+        orderDto.setBuyerPhone("14987941232");
         orderDto.setBuyerOpenid(BUYER_OPPENID);
 
         List<OrderDetail> orderDetailList = new ArrayList<>();
         OrderDetail o1 = new OrderDetail();
         o1.setProductId("123456");
-        o1.setProductQuantity(2);
+        o1.setProductQuantity(1);
         orderDetailList.add(o1);
         orderDto.setOrderDetailList(orderDetailList);
         OrderDto result = orderService.create(orderDto);

@@ -8,15 +8,15 @@ import lombok.Getter;
 @Getter
 public enum  PayStatusEnum implements CodeEnum {
     WAIT(0,"等待支付"),
-    SUCCESS(1,"支付成功")
+    SUCCESS(1,"支付成功"),
     ;
 
     private Integer code;
 
-    private String msg;
+    private String message;
 
-    PayStatusEnum(Integer code, String msg) {
+    PayStatusEnum(Integer code, String message) {
         this.code = code;
-        this.msg = msg;
+        this.message = message;
     }
 }
