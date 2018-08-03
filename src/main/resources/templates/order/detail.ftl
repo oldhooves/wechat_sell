@@ -2,9 +2,10 @@
 <head>
     <meta charset="utf-8">
     <title>订单详情</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
 
 <div class="container">
     <div class="row clearfix">

@@ -21,7 +21,8 @@ public enum  ResultEnum {
     CART_EMPTY(18,"购物车为空"),
     ORDER_OWNER_FAIL(19,"订单openid不一致"),
     ORDER_CANCER_SUCCESS(20,"订单取消成功"),
-    ORDER_FINISH_SUCCESS(21,"完结订单成功")
+    ORDER_FINISH_SUCCESS(21,"完结订单成功"),
+    PRODUCT_STATUS_ERROR(22,"商品状态错误"),
 
     ;
 
