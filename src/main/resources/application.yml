@@ -6,5 +6,8 @@ spring:
     url: jdbc:mysql://192.168.1.105/sell?characterEncoding=utf-8&useSSl=false
   jpa:
     show-sql: true
+  redis:
+    host: 192.168.1.105
+    port: 6379
 server:
   context-path: /sell
